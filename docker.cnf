@@ -1,0 +1,6 @@
+[mysqld]
+bind-address   = 0.0.0.0
+user           = mysql
+log_bin
+[mysql]
+prompt = "\h\> "
