@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 MAINTAINER erkan yanar <erkan.yanar@linsenraum.de>
-ENV VERSION 20160128
+ENV VERSION 20160303
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update
 RUN apt-get install -y  software-properties-common
